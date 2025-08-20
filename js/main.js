@@ -11,30 +11,49 @@ const navMenu = document.querySelector('.navbar__menu');
 const projects = [
     {
         id: 'telegram-chatbot',
-        title: 'Telegram Woocommerce Chatbot',
-        description: 'Developed a chatbot that integrates Telegram with WooCommerce and MongoDB, providing automated customer service.',
-        image: 'assets/telegram.webp',
-        category: 'llm',
-        technologies: ['Python', 'Flask', 'Telegram API', 'LLM Sales Agent', 'OpenAI API', 'WooCommerce API', 'MongoDB'],
-        link: '#' 
+        title: 'Web Scraping',
+        description: 'Scraped Data from a real website and integrated it into a panda dataframe.',
+        image: 'assets/web scraping.jpg',
+        category: 'Data Scraping',
+        technologies: ['Python', 'Panda'],
+        link: 'https://github.com/its-kevinbrown/python_web_scrapping_and_panda/blob/main/Data%20Scrapping.ipynb' 
     },
     {
         id: 'bank-complaints',
-        title: 'Bank Complaints Analysis with NLP and Spark',
-        description: 'Analyzed bank customer complaints to identify trends and patterns, using natural language processing and big data techniques using AWS EMRStudio and Spark-NLP library.',
-        image: 'assets/bank-complaints.webp',
-        category: 'nlp',
-        technologies: ['Python', 'PySpark', 'Streamlit', 'Docker', 'AWS', 'Spark-NLP', 'JhonSnowLabs'],
-        link: '#' 
+        title: 'World Layoffs (Data Cleaning and EDA)',
+        description: 'Cleaned and Explored data of company layoffs around the world, gaining insights into the data',
+        image: 'assets/sql.jpg',
+        category: 'SQL',
+        technologies: ['SQL'],
+        link: 'https://github.com/its-kevinbrown/MySQL_data_analysis_portfolio' 
     },
     {
         id: 'tdg-forex',
-        title: 'Implementation of Machine Learning Models for Trend Prediction in Forex Currency Pairs',
-        description: 'Grade Project for Masters Degree in Data Science',
-        image: 'assets/forex.webp',
-        category: 'machine-learning',
-        technologies: ['Python', 'XGBoost', 'Scikit-Learn', 'CatBoost', 'Feature Engineering', 'Time Series Analysis'],
-        link: '#' 
+        title: 'Bike Sales Analysis (Excel)',
+        description: 'Analyzing bike sales globally',
+        image: 'assets/Excel.jpg',
+        category: 'excel',
+        technologies: ['Excel', 'Pivot tables'],
+        link: 'https://github.com/its-kevinbrown/Bike-Sales-Data-Analysis-and-Visualization' 
+    },
+
+    {
+        id: 'tab',
+        title: 'Air BnB Listings Analysis (Tableau Visualization)',
+        description: 'Visualizing Air BnB Listings in Seattle',
+        image: 'assets/tableau.jpg',
+        category: 'excel',
+        technologies: ['Tableau'],
+        link: 'https://public.tableau.com/app/profile/kevin.ogonda/viz/AirBnBTableauProject_17556103710340/Dashboard1' 
+    },
+    {
+        id: 'python',
+        title: 'Python Analysis (Data Cleaning)',
+        description: 'Data Cleaning of a call centre directory',
+        image: 'assets/python.jpg',
+        category: 'python',
+        technologies: ['Python', 'Panda'],
+        link: 'https://github.com/its-kevinbrown/Data-cleaning-in-panda/blob/main/Data%20Cleaning%20in%20Pandas.ipynb' 
     },
 ];
 

@@ -1,21 +1,17 @@
 // Extended project data with more details
 const projectsData = {
     'telegram-chatbot': {
-        title: 'Telegram Woocommerce Chatbot',
-        category: 'llm',
-        description: `A chatbot with Retrieval Augmented Generation (RAG) that integrates Telegram with WooCommerce, providing automated customer service and order management capabilities. The system uses natural language processing to understand customer queries and machine learning to improve responses over time.
-        
-        The chatbot is built with Python and Flask, and uses the OpenAI API for creating embeddings and generating responses. It is connected to a MongoDB database for storing customer information and order and chat history, and is also integrated with the Groq API with llama.
-        
-        The chatbot is available in multiple languages and can automatically detect the user's language, making it easy for customers to get the help they need in their preferred language.`,
+        title: 'Web Scraping',
+        category: 'Data Scraping',
+        description: `I developed a Python-based project that leverages web scraping techniques to extract real-time data from a Wikipedia page listing the largest companies in the United States. The data was cleaned and structured into a Pandas DataFrame for further exploration and analysis. This project highlights my skills in data collection, preprocessing, and analysis, as well as my ability to transform raw web data into meaningful, structured insights.`,
 
-        image: 'assets/telegram.webp',
-        technologies: ['Python', 'Flask', 'LLM', 'Telegram API', 'WooCommerce API', 'MongoDB', 'Groq API', 'OpenAI API', 'RAG'],
+        image: 'assets/web scraping.jpg',
+        technologies: ['Python', 'Panda'],
         features: [
-            'Natural language understanding for processing customer queries',
-            'Product catalog browsing and search',
-            'Multi-language support with automatic language detection',
-            'Automated stock updates for the customer'
+            'Web Scraping: Extracted real-time data from Wikipedia using Python-based scraping techniques.',
+            'Data Structuring: Organized raw HTML content into a clean, well-structured Pandas DataFrame.',
+            'Data Cleaning & Preprocessing: Handled inconsistencies and formatted the dataset for analysis.',
+            'Analytical Foundation: Created a structured dataset that can be used for insights, visualization, or further modeling.'
         ],
         metrics: [
             {
@@ -31,57 +27,126 @@ const projectsData = {
                 label: 'Average Response Time'
             }
         ],
-        sourceUrl: 'https://github.com/sebasr0/TelegramBot'
+        sourceUrl: 'https://github.com/its-kevinbrown/python_web_scrapping_and_panda/blob/main/Data%20Scrapping.ipynb'
     },
     'bank-complaints': {
-        title: 'Bank Complaints Text Processing with Spark NLP',
+        title: 'World Layoffs (Data Cleaning and EDA)',
         category: 'analytics',
-        description: `A comprehensive text processing and analysis project that utilizes Spark NLP to analyze bank complaints data. The project implements various natural language processing techniques to extract insights, categorize complaints, and predict complaint categories.
-        
-        The application is containerized using Docker and features a Streamlit interface for interactive analysis. It incorporates sophisticated machine learning models including CountVectorizer, IDF, LDA for topic modeling, and supervised classification models like Logistic Regression and Decision Trees.
-        
-        The project is structured with a modular architecture that separates the application layer, configuration, and analytics components. MlFlow is utilized for experiment tracking and model versioning, ensuring reproducibility and performance monitoring.`,
-        image: 'assets/bank-complaints.webp',
-        technologies: ['Spark NLP', 'Python', 'Streamlit', 'Docker', 'MlFlow', 'Logistic Regression', 'LDA', 'CountVectorizer', 'IDF', 'Decision Tree', 'Jupyter Notebook'],
+        description: `I worked on a dataset capturing company layoffs across the world, containing details such as percentage laid off, total employees affected, funds raised, company industry, and more. Using SQL, I performed extensive data cleaning to handle missing values and inconsistencies, and conducted exploratory analysis to uncover meaningful patterns and trends. This project demonstrates my ability to use SQL for data wrangling, querying, and insight generation from real-world datasets`,
+        image: 'assets/sql.jpg',
+        technologies: ['SQL'],
         features: [
-            'Text processing pipeline with Spark NLP',
-            'Topic modeling to categorize complaints (LDA)',
-            'Supervised classification with Logistic Regression and Decision Trees',
-            'Interactive Streamlit dashboard for analysis',
-            'Containerized deployment with Docker',
-            'Model tracking and versioning with MlFlow'
+            'Data Cleaning: Used SQL to handle missing values, duplicates, and inconsistencies in the dataset',
+            'Exploratory Analysis: Queried data to identify trends in layoffs across industries, countries, and company sizes.',
+            'Insight Generation: Analyzed key metrics such as percentage laid off, total layoffs, and funding raised to uncover patterns.',
+            'Real-World Application: Worked with a global dataset reflecting real corporate events, highlighting practical SQL use cases.',
         ],
         metrics: [
             {
-                value: '79.9%',
-                label: 'Logistic Regression Accuracy'
+                value: '85%',
+                label: 'Query Resolution Rate'
             },
             {
-                value: '79.9%',
-                label: 'F1 Score'
+                 value: '24/7',
+                label: 'Availability'
             },
             {
-                value: '5',
-                label: 'Identified Topic Categories'
+                value: '3.5s',
+                label: 'Average Response Time'
             },
-            {
-                value: '53.9%',
-                label: 'Decision Tree Accuracy'
-            }
+            
         ],
-        sourceUrl: 'https://github.com/sebasr0/SparkNLP-Project-Bank-Complaints'
+        sourceUrl: 'https://github.com/its-kevinbrown/MySQL_data_analysis_portfolio'
     },
 
-    'tdg-forex1': {
-        title: 'Paper coming soon...',
-        category: 'Machine Learning',
-        description: `.`,
-        image: '#',
-        technologies: '#',
-        features: '#',
-        metrics: '#',
-        sourceUrl: '#'
-    }
+    'tdg-forex': {
+        title: 'Bike Sales Analysis (Excel)',
+        category: 'excel',
+        description: `I analyzed a dataset on global bike sales using Microsoft Excel. The project involved performing thorough data cleaning, leveraging Pivot Tables for multi-dimensional analysis, and creating an interactive dashboard to visualize key sales insights. This project highlights my ability to transform raw sales data into clear, actionable insights through effective Excel data analysis and visualization.`,
+        image: 'assets/Excel.jpg',
+        technologies: ['SQL'],
+        features:[
+            'Data Cleaning: Prepared and structured raw global bike sales data for accurate analysis.',
+            'Pivot Table Analysis: Utilized Pivot Tables to explore sales trends across regions, product categories, and time periods.',
+            'Dashboard Development: Designed an interactive Excel dashboard to visualize key sales metrics and insights.',
+            'Business Insights: Delivered actionable findings to better understand sales performance and customer patterns.',
+        ] ,
+        metrics: [
+            {
+                value: '85%',
+                label: 'Query Resolution Rate'
+            },
+            {
+                 value: '24/7',
+                label: 'Availability'
+            },
+            {
+                value: '3.5s',
+                label: 'Average Response Time'
+            },
+            
+        ],
+        sourceUrl: 'https://github.com/its-kevinbrown/Bike-Sales-Data-Analysis-and-Visualization'
+    },
+     'tab': {
+        title: 'Air BnB Listings Analysis (Tableau Visualization)',
+        category: 'Tableau',
+        description: `I built an interactive Tableau dashboard to visualize Airbnb listings in Seattle, focusing on key performance metrics. The analysis included yearly revenue trends, price distribution across zip codes (via maps), and average pricing by number of bedrooms. This project demonstrates my ability to use Tableau for transforming raw data into insightful, visually engaging, and interactive dashboards that support data-driven decision-making.`,
+        image: 'assets/tableau.jpg',
+        technologies: ['Tableau'],
+        features:[
+            'Revenue Analysis: Visualized yearly revenue trends to highlight business performance over time.',
+            'Geospatial Insights: Mapped price distribution across Seattle zip codes for location-based analysis.',
+            'Pricing Patterns: Analyzed average listing prices by bedroom count to uncover accommodation trends.',
+            'Interactive Dashboard: Designed an intuitive Tableau dashboard enabling dynamic exploration of insights.',
+        ] ,
+        metrics: [
+            {
+                value: '85%',
+                label: 'Query Resolution Rate'
+            },
+            {
+                 value: '24/7',
+                label: 'Availability'
+            },
+            {
+                value: '3.5s',
+                label: 'Average Response Time'
+            },
+            
+        ],
+        sourceUrl: 'https://public.tableau.com/app/profile/kevin.ogonda/viz/AirBnBTableauProject_17556103710340/Dashboard1'
+    },
+    'python': {
+        title: 'Python Analysis (Data Cleaning)',
+        category: 'Python',
+        description: `I developed a data cleaning workflow using Python and Pandas to process a call center customer directory. The project involved standardizing phone numbers, dropping irrelevant tables, removing null values, and filtering customers flagged for call-back by the call center. This project highlights my ability to apply Python for data wrangling, quality assurance, and preparing datasets for operational use.`,
+        image: 'assets/python.jpg',
+        technologies: ['Python', 'Panda'],
+        features:[
+            'Data Standardization: Cleaned and formatted the phone number column to ensure consistency',
+            'Data Reduction: Dropped irrelevant tables to streamline the dataset for analysis.',
+            'Data Quality Improvement: Removed null values to maintain dataset accuracy and reliability.',
+            'Operational Filtering: Isolated customers flagged for call-back to support call center workflows.',
+        ] ,
+        metrics: [
+            {
+                value: '95%',
+                label: 'Query Resolution Rate'
+            },
+            {
+                 value: '24/7',
+                label: 'Availability'
+            },
+            {
+                value: '3.5s',
+                label: 'Average Response Time'
+            },
+            
+        ],
+        sourceUrl: 'https://github.com/its-kevinbrown/Data-cleaning-in-panda/blob/main/Data%20Cleaning%20in%20Pandas.ipynb'
+    },
+    
 };
 
 // Get project ID from URL
